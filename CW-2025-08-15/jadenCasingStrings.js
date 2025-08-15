@@ -23,7 +23,11 @@ Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 */
 
 function toJadenCase(str){
+<<<<<<< HEAD
     return str.split(' ').map(x => x[0].toUpperCase() + x.slice(1)).join(' ');
+=======
+    return str.split(' ').map(x => x[0].toUpperCase() + x.slice(1)).join(' ')
+>>>>>>> 1150f37d3c89e0d0bea67df0fe1d1d0993b2c541
 }
 
 console.log(toJadenCase("most trees are blue"), "Most Trees Are Blue");
